@@ -7,7 +7,7 @@ export function FooterSection() {
         <div className="flex flex-col items-center text-center">
           <div className="mb-8 flex items-center gap-3">
             <img src={LOGO_URL} alt="RebornFILMS" className="h-9 w-9 object-contain" />
-            <span className="font-[Poppins] leading-none text-foreground text-4xl font-extralight">
+            <span className="font-[Poppins] leading-none text-foreground font-extralight text-4xl">
               Reborn<span className="text-[#FF1493]">FILMS</span>
             </span>
           </div>
