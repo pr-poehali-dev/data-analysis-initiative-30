@@ -1,5 +1,7 @@
 import Icon from "@/components/ui/icon"
 
+const LOGO_URL = "https://cdn.poehali.dev/projects/3e670d87-2767-4641-ac25-d7d39ce9a6fb/bucket/d073ec1d-9850-475d-a6bc-18cf54e8ae6c.png"
+
 export function FooterSection() {
   return (
     <footer className="relative w-full border-t border-foreground/10 bg-background">
@@ -7,11 +9,9 @@ export function FooterSection() {
         <div className="grid gap-12 md:grid-cols-[2fr_1fr_1fr_1fr]">
           <div>
             <div className="mb-6 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-foreground/10">
-                <span className="font-sans text-lg font-bold text-foreground">R</span>
-              </div>
+              <img src={LOGO_URL} alt="RebornFILMS" className="h-9 w-9 object-contain" />
               <span className="font-sans text-xl font-semibold tracking-tight text-foreground">
-                Reborn<span className="text-red-500">FILMS</span>
+                Reborn<span className="text-[#FF1493]">FILMS</span>
               </span>
             </div>
             <p className="mb-6 max-w-sm text-sm leading-relaxed text-foreground/50">
@@ -27,7 +27,7 @@ export function FooterSection() {
                 <a
                   key={social.icon}
                   href={social.href}
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-foreground/5 text-foreground/50 transition-all hover:bg-foreground/10 hover:text-foreground"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-foreground/5 text-foreground/50 transition-all hover:bg-[#FF1493]/20 hover:text-[#FF1493]"
                 >
                   <Icon name={social.icon} size={18} />
                 </a>
