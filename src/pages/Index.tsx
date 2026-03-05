@@ -17,8 +17,8 @@ export default function Index() {
 
       <nav className="fixed left-0 right-0 top-0 z-40 flex items-center justify-between px-6 py-5 md:px-12">
         <div className="flex items-center gap-3">
-          <img src={LOGO_URL} alt="RebornFILMS" className="h-9 w-9 object-contain" />
-          <span className="font-[Poppins] text-[36px] font-light leading-none text-white">
+          <img src={LOGO_URL} alt="RebornFILMS" className="h-9 w-9 object-contain mx-0 py-0" />
+          <span className="font-[Poppins] font-light leading-none text-white text-xl">
             Reborn<span className="text-[#FF1493]">FILMS</span>
           </span>
         </div>
