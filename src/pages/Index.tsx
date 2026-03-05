@@ -18,7 +18,7 @@ export default function Index() {
       <nav className="fixed left-0 right-0 top-0 z-40 flex items-center justify-between px-6 py-5 md:px-12">
         <div className="flex items-center gap-3">
           <img src={LOGO_URL} alt="RebornFILMS" className="h-9 w-9 object-contain" />
-          <span className="font-sans text-xl font-semibold tracking-tight text-white">
+          <span className="font-[Poppins] text-[36px] font-light leading-none text-white">
             Reborn<span className="text-[#FF1493]">FILMS</span>
           </span>
         </div>
@@ -60,7 +60,7 @@ export default function Index() {
             }`}
           />
           <h1
-            className={`mb-4 font-sans text-6xl font-bold tracking-tight text-white transition-all duration-1000 md:text-8xl lg:text-9xl ${
+            className={`mb-4 font-[Poppins] text-6xl font-light tracking-tight text-white transition-all duration-1000 md:text-8xl lg:text-9xl ${
               heroVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
             }`}
             style={{ transitionDelay: "150ms" }}
