@@ -6,7 +6,7 @@ export function FooterSection() {
       <div className="mx-auto max-w-7xl px-4 py-12 md:px-12 md:py-16 lg:px-16">
         <div className="flex flex-col items-center text-center">
           <div className="mb-8 flex items-center gap-3">
-            <img src={LOGO_URL} alt="RebornFILMS" className="h-9 w-9 object-contain" />
+            <img src={LOGO_URL} alt="RebornFILMS" className="h-9 w-9 object-fill" />
             <span className="font-[Poppins] leading-none text-foreground font-extralight text-4xl">
               Reborn<span className="text-[#FF1493]">FILMS</span>
             </span>
