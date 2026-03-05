@@ -23,9 +23,7 @@ export default function Index() {
           </span>
         </div>
         <div className="hidden items-center gap-8 md:flex">
-          <a href="#content" className="font-sans text-sm font-medium text-white/70 transition-colors hover:text-white">
-            Content
-          </a>
+          <a href="#content" className="font-sans text-sm font-medium text-white/70 transition-colors hover:text-white"></a>
           <a href="#subscribe" className="font-sans text-sm font-medium text-white/70 transition-colors hover:text-white">
             About
           </a>
