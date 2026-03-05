@@ -27,9 +27,7 @@ export default function Index() {
           <a href="#content" className="font-sans text-sm font-medium text-white/70 transition-colors hover:text-white">
             Content
           </a>
-          <a href="#subscribe" className="font-sans text-sm font-medium text-white/70 transition-colors hover:text-white">
-            Subscribe
-          </a>
+          <a href="#subscribe" className="font-sans text-sm font-medium text-white/70 transition-colors hover:text-white"></a>
         </div>
         <MagneticButton variant="primary" size="default">
           Sign Up
